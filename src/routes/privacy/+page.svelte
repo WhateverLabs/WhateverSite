@@ -89,7 +89,7 @@
 		<br />
 		<br />
 		View the "Personal Data" section of this policy and our
-		<a class="link" href="https://whatever.social/transparency" target="_blank"
+		<a class="link" href="https://whatever.social/transparency" target="noreferrer"
 			>Transparency Report</a
 		>.
 	</p>
@@ -103,7 +103,7 @@
 		services. NOC.org is not used on services on our whatevertinfoil.de domain. View <a
 			class="link"
 			href="https://noc.org/privacy/"
-			target="_blank">NOC.org's Privacy Policy</a
+			target="noreferrer">NOC.org's Privacy Policy</a
 		> to learn more.
 	</p>
 	<br />
@@ -118,7 +118,7 @@
 		We use Session as one of the methods for contacting us. View <a
 			class="link"
 			href="https://getsession.org/privacy-policy"
-			target="_blank">Session's Privacy Policy</a
+			target="noreferrer">Session's Privacy Policy</a
 		> to learn more.
 	</p>
 	<br />
@@ -127,7 +127,7 @@
 		We use Proton to receive and store your e-mails sent to us. View <a
 			class="link"
 			href="https://proton.me/legal/privacy"
-			target="_blank">Proton's Privacy Policy</a
+			target="noreferrer">Proton's Privacy Policy</a
 		> to learn more.
 	</p>
 	<br />
@@ -136,7 +136,7 @@
 		We use SimpleLogin to relay your e-mails sent to our whatever.social domain. View <a
 			class="link"
 			href="https://simplelogin.io/privacy/"
-			target="_blank">SimpleLogin's Privacy Policy</a
+			target="noreferrer">SimpleLogin's Privacy Policy</a
 		> to learn more.
 	</p>
 	<br />
@@ -150,7 +150,7 @@
 		any of your personal information, such as Name, Payment Information, and etc. View <a
 			class="link"
 			href="https://en.liberapay.com/about/privacy"
-			target="_blank">Liberapay's Privacy Policy</a
+			target="noreferrer">Liberapay's Privacy Policy</a
 		> to learn more.
 	</p>
 	<br />
@@ -159,7 +159,7 @@
 		If Monero is your chosen method of payment, we rely on Cake Wallet to receive your payment. View <a
 			class="link"
 			href="https://raw.githubusercontent.com/cake-tech/cake_wallet/main/PRIVACY.md"
-			target="_blank">Cake Wallet's Privacy Policy</a
+			target="noreferrer">Cake Wallet's Privacy Policy</a
 		> to learn more.
 	</p>
 	<br />
@@ -187,7 +187,7 @@
 			href="mailto:privacy@whatever.social"
 			target="_blank">privacy@whatever.social</a
 		>
-		(PGP Public Key <a class="link" href="https://whatever.social/email" target="_blank">here</a>).
+		(PGP Public Key <a class="link" href="https://whatever.social/email" target="noreferrer">here</a>).
 		If we are able to find any information relating to that person, it will be removed.
 	</p>
 	<br />
@@ -199,7 +199,7 @@
 			href="mailto:privacy@whatever.social"
 			target="_blank">privacy@whatever.social</a
 		>
-		(PGP Public Key <a class="link" href="https://whatever.social/email" target="_blank">here</a>).
+		(PGP Public Key <a class="link" href="https://whatever.social/email" target="noreferrer">here</a>).
 	</p>
 	<br />
 	<br />
