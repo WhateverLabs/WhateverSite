@@ -7,26 +7,26 @@
 {/if}
 
 <header>
-	<a href="/"> <img src="images/Whatever-Logo.svg" alt="Whatever Social Logo" class="logo" /></a>
+	<a href="/"> <img src="images/Whatever-Logo.svg" alt="Whatever Social Logo" class="logo"/></a>
 	<nav class="navbar">
 		<ul class="nav__list">
 			<li class="nav__list-item">
-				<a href="#" class="nav__link">Social Frontends</a>
+				<a href="/socials" class="nav__link">Social Frontends</a>
 			</li>
 			<li class="nav__list-item">
-				<a href="#" class="nav__link">Knowledge Frontends</a>
+				<a href="/knowledge" class="nav__link">Knowledge Frontends</a>
 			</li>
 			<li class="nav__list-item">
-				<a href="#" class="nav__link">Tools</a>
+				<a href="/tools" class="nav__link">Tools</a>
 			</li>
 			<li class="nav__list-item">
-				<a href="/guides.html" class="nav__link">Guides</a>
+				<a href="/guides" class="nav__link">Guides</a>
 			</li>
 			<li class="nav__list-item">
-				<a href="#" class="nav__link">Contact</a>
+				<a href="/contact" class="nav__link">Contact</a>
 			</li>
 			<li class="nav__list-item">
-				<a href="#" class="nav__link">Donate</a>
+				<a href="/donate" class="nav__link">Donate</a>
 			</li>
 		</ul>
 		<div class="burger">
@@ -54,10 +54,10 @@
 		</div>
 		<ul id="scene">
 			<li class="layer" id="top" data-depth="0.20">
-				<img src="images/bannertop.png" />
+				<img src="images/bannertop.png" alt="Upper banner"/>
 			</li>
 			<li class="layer" id="bottom" data-depth="0.40">
-				<img src="images/bannerbottom.png" />
+				<img src="images/bannerbottom.png" alt="Lower banner"/>
 			</li>
 		</ul>
 	</div>
@@ -115,11 +115,11 @@
 				<img src="images/Whatever-Logo.svg" alt="Whatever Social Small Logo" class="footerlogo" />
 			</li>
 			<li class="footer__list-item">
-				<a href="#" class="nav__link">Privacy Policy</a>
+				<a href="/privacy" class="nav__link">Privacy Policy</a>
 			</li>
 			<li class="footer__list-item">|</li>
 			<li class="footer__list-item">
-				<a href="#" class="nav__link">Transparency Report</a>
+				<a href="/transparency" class="nav__link">Transparency Report</a>
 			</li>
 		</ul>
 	</nav>
