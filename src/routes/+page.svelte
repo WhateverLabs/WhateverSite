@@ -217,6 +217,7 @@
 		width: 12em;
 		font-size: 3.5rem;
 		line-height: 1.2em;
+		z-index: 2;
 	}
 	.phone {
 		float: right;
@@ -232,6 +233,7 @@
 		min-height: 400px;
 		padding-left: 3em;
 		margin-right: 0;
+		z-index: 2;
 	}
 	.banner {
 		#scene {
@@ -244,7 +246,7 @@
 			padding-left: 0.25em;
 			overflow: hidden;
 			opacity: 10%;
-			z-index: -999;
+			z-index: -1;
 			background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(31, 30, 30, 1) 100%);
 		}
 	}
@@ -254,6 +256,7 @@
 		margin-top: -5em;
 		vertical-align: middle;
 		padding-top: 0;
+		z-index: 3;
 	}
 	.second__section--pg1 {
 		height: 100%;
