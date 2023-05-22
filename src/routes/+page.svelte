@@ -79,7 +79,7 @@
 		</div>
 		<h2 class="focus">
 			Your privacy is Whatever's focus. <br /><br />
-			Unlike these megacorporations, we don't need to study your viewing habits or searches.
+			Unlike these mega-corporations, we don't need to study your viewing habits or searches.
 			<br />
 			That's <u>WEIRD.</u>
 		</h2>
@@ -208,16 +208,18 @@
 		justify-content: space-between;
 		display: flex;
 		width: 100%;
+		padding: 3rem;
+		box-sizing: border-box;
+		align-items: center;
+
+		@media only screen and (max-width: $mobile-width) {
+			display: inline-block;
+			padding: 1rem;
+		}
 	}
 	.tagline {
-		float: left;
-		max-inline-size: 60%;
-		padding-top: 2em;
 		color: $color_4;
 		letter-spacing: 0px;
-		margin-top: 2em;
-		margin-left: 2em;
-		width: 12em;
 		font-size: 3.5rem;
 		line-height: 1.2em;
 	}
@@ -252,7 +254,6 @@
 	.waves {
 		width: 100%;
 		height: auto;
-		margin-top: -5em;
 		vertical-align: middle;
 		padding-top: 0;
 		z-index: 3;
@@ -389,14 +390,6 @@
 				transition: 0.2s ease;
 				color: $color_3;
 			}
-		}
-	}
-
-	.hero-elements {
-		@media only screen and (max-width: $mobile-width) {
-			display: flex;
-			flex-direction: column;
-			height: 100vh;
 		}
 	}
 </style>
