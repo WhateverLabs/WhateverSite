@@ -14,12 +14,10 @@
 </div>
 
 <style lang="scss">
-	:global(body) {
+	.container {
 		display: flex;
 		justify-content: center;
-	}
-	.container {
-		width: 30rem;
+        width: 30rem;
 		padding-top: 1rem;
 		@media only screen and (max-width: 800px) {
 			padding: 1rem;

@@ -48,7 +48,7 @@
 				</h1>
 				<div class="phone">
 					<img
-						src="images/Phone.svg"
+						src="images/180shots_so.png"
 						alt="Phone showing social media companies being proxied through Whatever Social"
 					/>
 				</div>
@@ -223,16 +223,12 @@
 		float: right;
 		display: flex;
 		justify-content: space-between;
-		padding-top: 2em;
+		padding-top: 1.5em;
 		margin-top: 1em;
 		width: 100%;
-		height: 80%;
-		max-width: 700px;
-		min-width: 600px;
-		max-height: 600px;
-		min-height: 400px;
-		padding-left: 3em;
-		margin-right: 0;
+		max-width: 900px;
+		min-width: 800px;
+		margin-right: 2em;
 		z-index: 2;
 	}
 	.banner {
