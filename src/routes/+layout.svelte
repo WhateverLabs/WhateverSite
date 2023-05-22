@@ -1,5 +1,7 @@
 <script lang="ts">
-    import "../main.scss";
+	import Nav from '../lib/Nav.svelte';
+	import '../main.scss';
 </script>
 
+<Nav />
 <slot />

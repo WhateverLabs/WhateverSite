@@ -6,131 +6,90 @@
 	<div class="loader" />
 {/if}
 
-<body class="page1">
-	<header>
-		<a href="/"> <img src="images/Whatever-Logo.svg" alt="Whatever Social Logo" class="logo" /></a>
-		<nav class="navbar">
-			<ul class="nav__list">
-				<li class="nav__list-item">
-					<a href="/socials" class="nav__link">Social Frontends</a>
-				</li>
-				<li class="nav__list-item">
-					<a href="/knowledge" class="nav__link">Knowledge Frontends</a>
-				</li>
-				<li class="nav__list-item">
-					<a href="/tools" class="nav__link">Tools</a>
-				</li>
-				<li class="nav__list-item">
-					<a href="/guides" class="nav__link">Guides</a>
-				</li>
-				<li class="nav__list-item">
-					<a href="/contact" class="nav__link">Contact</a>
-				</li>
-				<li class="nav__list-item">
-					<a href="/donate" class="nav__link">Donate</a>
-				</li>
-			</ul>
-			<div class="burger">
-				<span class="bar" />
-				<span class="bar" />
-				<span class="bar" />
-			</div>
-		</nav>
-	</header>
-
-	<section class="first__section--pg1">
-		<div class="banner">
-			<div class="hero-elements">
-				<h1 class="tagline">
-					The best way to get the scoop without creepy
-					<span style="color: #db3426">ads</span> &
-					<span style="color: #db3426">trackers</span>
-				</h1>
-				<div class="phone">
-					<img
-						src="images/180shots_so.png"
-						alt="Phone showing social media companies being proxied through Whatever Social"
-					/>
-				</div>
-			</div>
-			<ul id="scene">
-				<img src="images/banner.png" alt="Banner" />
-			</ul>
-		</div>
-	</section>
-
-	<img src="images/stacked-waves.png" alt="Lavender Waves" class="waves" />
-
-	<section class="second__section--pg1">
-		<img id="lock" src="images/whateverlock.gif" alt="Whatever Lock Graphic" />
-		<div class="second__section--text">
-			<div class="container left">
-				<p class="textbox">
-					"Whatever" represents what we think of your data as a way of income - we don't see you as
-					a dollar sign
-				</p>
-			</div>
-			<div class="container right">
-				<p class="textbox">
-					With Whatever Social, you can get your social media content with
-					<u>no care, no care in the world</u>
-				</p>
+<section class="first__section--pg1">
+	<div class="banner">
+		<div class="hero-elements">
+			<h1 class="tagline">
+				The best way to get the scoop without creepy
+				<span style="color: #db3426">ads</span> &
+				<span style="color: #db3426">trackers</span>
+			</h1>
+			<div class="phone">
+				<img
+					src="images/180shots_so.png"
+					alt="Phone showing social media companies being proxied through Whatever Social"
+				/>
 			</div>
 		</div>
-		<h2 class="focus">
-			Your privacy is Whatever's focus. <br /><br />
-			Unlike these mega-corporations, we don't need to study your viewing habits or searches.
-			<br />
-			That's <u>WEIRD.</u>
-		</h2>
-	</section>
+		<ul id="scene">
+			<img src="images/banner.png" alt="Banner" />
+		</ul>
+	</div>
+</section>
 
-	<img src="images/stacked-waves-bottom.svg" alt="Charcoal Waves" class="waves2" />
+<img src="images/stacked-waves.png" alt="Lavender Waves" class="waves" />
 
-	<section class="third__section--pg1">
-		<div class="container">
-			<img
-				src="images/Map.svg"
-				alt="World map with dots on California US, and Germany"
-				class="world-map"
-			/>
-			<p class="textbox-4">
-				Serving thousands of people with servers in 2 continents, we're running on <u>Donations</u>
-				and
-				<u>Maple Syrup</u>
+<section class="second__section--pg1">
+	<img id="lock" src="images/whateverlock.gif" alt="Whatever Lock Graphic" />
+	<div class="second__section--text">
+		<div class="container left">
+			<p class="textbox">
+				"Whatever" represents what we think of your data as a way of income - we don't see you as a
+				dollar sign
 			</p>
 		</div>
-	</section>
+		<div class="container right">
+			<p class="textbox">
+				With Whatever Social, you can get your social media content with
+				<u>no care, no care in the world</u>
+			</p>
+		</div>
+	</div>
+	<h2 class="focus">
+		Your privacy is Whatever's focus. <br /><br />
+		Unlike these mega-corporations, we don't need to study your viewing habits or searches.
+		<br />
+		That's <u>WEIRD.</u>
+	</h2>
+</section>
 
-	<footer>
-		<nav class="footerbar">
-			<ul class="footer__list">
-				<li class="footer__list-logo">
-					<img src="images/Whatever-Logo.svg" alt="Whatever Social Small Logo" class="footerlogo" />
-				</li>
-				<li class="footer__list-item">
-					<a href="/privacy" class="nav__link">Privacy Policy</a>
-				</li>
-				<li class="footer__list-item">|</li>
-				<li class="footer__list-item">
-					<a href="/transparency" class="nav__link">Transparency Report</a>
-				</li>
-			</ul>
-		</nav>
-	</footer>
-</body>
+<img src="images/stacked-waves-bottom.svg" alt="Charcoal Waves" class="waves2" />
+
+<section class="third__section--pg1">
+	<div class="container">
+		<img
+			src="images/Map.svg"
+			alt="World map with dots on California US, and Germany"
+			class="world-map"
+		/>
+		<p class="textbox-4">
+			Serving thousands of people with servers in 2 continents, we're running on <u>Donations</u>
+			and
+			<u>Maple Syrup</u>
+		</p>
+	</div>
+</section>
+
+<footer>
+	<nav class="footerbar">
+		<ul class="footer__list">
+			<li class="footer__list-logo">
+				<img src="images/Whatever-Logo.svg" alt="Whatever Social Small Logo" class="footerlogo" />
+			</li>
+			<li class="footer__list-item">
+				<a href="/privacy" class="nav__link">Privacy Policy</a>
+			</li>
+			<li class="footer__list-item">|</li>
+			<li class="footer__list-item">
+				<a href="/transparency" class="nav__link">Transparency Report</a>
+			</li>
+		</ul>
+	</nav>
+</footer>
 
 <style lang="scss">
 	@import '../vars.scss';
 
-	.page1 {
-		margin: 0;
-		font-family: $font-family_1;
-		font-size: 2rem;
-		line-height: 1.2;
-		color: $color_1;
-		background-color: $background-color_1;
-	}
 	#loading {
 		background: var(--clr-black) url(../images/whateverload.gif) no-repeat center center;
 		background-size: 10%;
@@ -140,13 +99,6 @@
 		z-index: 9999;
 		overflow: hidden;
 	}
-	header {
-		background-color: $background-color_2;
-		padding: 1em;
-		padding-bottom: 0;
-		text-align: center;
-		margin-top: 0em;
-	}
 	.logo {
 		display: flex;
 		margin-left: auto;
@@ -155,53 +107,6 @@
 	nav {
 		padding: 0;
 		margin: 0;
-	}
-	.navbar {
-		min-height: 70px;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		padding: 0 24px;
-		padding-top: 0.5em;
-		width: 100%;
-		.nav__list {
-			display: flex;
-			justify-content: space-between;
-			align-items: center;
-			gap: 80px;
-			color: $color_1;
-			list-style: none;
-			font-size: 1.4rem;
-			font-weight: var(--fw-normal);
-			text-transform: none;
-			letter-spacing: 1.5px;
-			padding: 0;
-
-			@media only screen and (max-width: $mobile-width) {
-				display: inline-block;
-			}
-
-			.nav__link {
-				text-decoration: none;
-				color: $color_2;
-				&:hover {
-					transition: 0.2s ease;
-					color: $color_3;
-				}
-			}
-		}
-	}
-	.burger {
-		display: none;
-		cursor: pointer;
-		padding-bottom: 0.5em;
-	}
-	.bar {
-		display: block;
-		width: 40px;
-		height: 6px;
-		margin: 7px auto;
-		background-color: $background-color_3;
 	}
 	.hero-elements {
 		height: 100vh;
@@ -327,9 +232,9 @@
 			display: flex;
 			padding: 2rem;
 			box-sizing: border-box;
-
+			flex-wrap: wrap;
 			@media only screen and (max-width: $mobile-width) {
-				display: block;
+				/* display: block; */
 			}
 
 			.world-map {

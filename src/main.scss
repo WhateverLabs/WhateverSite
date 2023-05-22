@@ -1,4 +1,4 @@
-@import "./vars.scss";
+@import './vars.scss';
 
 @font-face {
 	font-family: 'Sen';
@@ -44,7 +44,7 @@
 		box-sizing: border-box;
 	}
 
-    font-family: Sen, sans-serif;
+	font-family: Sen, sans-serif;
 }
 
 :root {
@@ -58,7 +58,17 @@
 	--grid: 1fr;
 }
 
-html, body {
-    margin: 0;
-    padding: 0;
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 0;
+	font-family: $font-family_1;
+	font-size: 2rem;
+	line-height: 1.2;
+	color: $color_1;
+	background-color: $background-color_1;
 }
