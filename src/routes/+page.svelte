@@ -64,22 +64,20 @@
 	<section class="second__section--pg1">
 		<img id="lock" src="images/whateverlock.gif" alt="Whatever Lock Graphic" />
 		<div class="second__section--text">
-			<p class="textbox-1">
-				"Whatever" represents what we think of your data as a way of income - we don't see you as a
-				dollar sign
-			</p>
-			<div class="cell-2">
-				<p class="empty-1" />
+			<div class="container left">
+				<p class="textbox">
+					"Whatever" represents what we think of your data as a way of income - we don't see you as
+					a dollar sign
+				</p>
 			</div>
-			<p class="textbox-2">
-				With Whatever Social, you can get your social media content with
-				<u>no care, no care in the world</u>
-			</p>
-			<div class="cell-3">
-				<p class="empty-2" />
+			<div class="container right">
+				<p class="textbox">
+					With Whatever Social, you can get your social media content with
+					<u>no care, no care in the world</u>
+				</p>
 			</div>
 		</div>
-		<h2 class="textbox-3">
+		<h2 class="focus">
 			Your privacy is Whatever's focus. <br /><br />
 			Unlike these megacorporations, we don't need to study your viewing habits or searches.
 			<br />
@@ -166,26 +164,31 @@
 		padding: 0 24px;
 		padding-top: 0.5em;
 		width: 100%;
-	}
-	.nav__list {
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
-		gap: 80px;
-		color: $color_1;
-		list-style: none;
-		font-size: 1.4rem;
-		font-weight: var(--fw-normal);
-		text-transform: none;
-		letter-spacing: 1.5px;
-		padding: 0;
-	}
-	.nav__link {
-		text-decoration: none;
-		color: $color_2;
-		&:hover {
-			transition: 0.2s ease;
-			color: $color_3;
+		.nav__list {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			gap: 80px;
+			color: $color_1;
+			list-style: none;
+			font-size: 1.4rem;
+			font-weight: var(--fw-normal);
+			text-transform: none;
+			letter-spacing: 1.5px;
+			padding: 0;
+
+			@media only screen and (max-width: $mobile-width) {
+				display: inline-block;
+			}
+
+			.nav__link {
+				text-decoration: none;
+				color: $color_2;
+				&:hover {
+					transition: 0.2s ease;
+					color: $color_3;
+				}
+			}
 		}
 	}
 	.burger {
@@ -264,6 +267,39 @@
 		font-family: $font-family_1;
 		font-size: 2rem;
 		line-height: 1.2;
+
+		@media only screen and (max-width: $mobile-width) {
+			display: block;
+		}
+
+		padding: 3rem;
+		box-sizing: border-box;
+
+		.second__section--text {
+			.container {
+				width: 100%;
+				&.right {
+					display: flex;
+					justify-content: flex-end;
+				}
+				.textbox {
+					text-align: left;
+					border-radius: 25px;
+					background: #8748aa;
+					padding: 20px;
+					margin-bottom: 0;
+					width: 35rem;
+					height: 100%;
+					box-shadow: -10px 10px white;
+					box-sizing: border-box;
+					box-sizing: border-box;
+
+					@media only screen and (max-width: $mobile-width) {
+						width: 100%;
+					}
+				}
+			}
+		}
 	}
 	#lock {
 		height: auto;
@@ -274,60 +310,13 @@
 		background: url(images/whateverlock.gif) 0 0;
 		border-radius: 25px;
 	}
-	.second__section--text {
-		margin-left: 4em;
-		margin-right: 4em;
-		padding-top: 2em;
-		margin-bottom: 2em;
-		max-height: 600px;
-		display: grid;
-		grid-auto-rows: 1fr;
-		grid-template-columns: 1fr 1fr;
-		grid-template-rows: 1fr 1fr 1fr;
-		gap: 20px 60px;
-		grid-template-areas: 'textbox-1 cell-2' 'cell-3 textbox-2';
-	}
-	.textbox-1 {
-		grid-area: textbox-1;
-		text-align: left;
-		border-radius: 25px;
-		background: #8748aa;
-		padding: 20px;
-		margin-bottom: 0;
-		width: 100%;
-		height: 100%;
-		box-shadow: -10px 10px white;
-	}
-	.textbox-2 {
-		grid-area: textbox-2;
-		text-align: right;
-		border-radius: 25px;
-		background: #8748aa;
-		padding: 20px;
-		margin-bottom: 0;
-		width: 100%;
-		height: 100%;
-		box-shadow: 10px 10px white;
-	}
 	.cell-2 {
 		grid-area: cell-2;
 	}
 	.cell-3 {
 		grid-area: cell-3;
 	}
-	.textbox-3 {
-		font-weight: 700;
-		text-align: center;
-		max-inline-size: unset;
-		margin-left: 4em;
-		margin-right: 4em;
-		margin-top: 0;
-		color: $color_4;
-		letter-spacing: 0px;
-		font-size: 2.5rem;
-		line-height: 1.2em;
-		margin-bottom: 0;
-	}
+
 	.waves2 {
 		width: 100%;
 		vertical-align: middle;
@@ -337,12 +326,19 @@
 			display: flex;
 			padding: 2rem;
 			box-sizing: border-box;
-            
+
+			@media only screen and (max-width: $mobile-width) {
+				display: block;
+			}
+
 			.world-map {
-				grid-area: world-map;
 				height: auto;
 				width: auto;
 				max-width: 700px;
+
+				@media only screen and (max-width: $mobile-width) {
+					width: 100%;
+				}
 			}
 			.textbox-4 {
 				color: $color_4;
@@ -369,29 +365,38 @@
 		justify-content: center;
 		align-items: center;
 		width: 100%;
+		.footer__list {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			gap: 80px;
+			color: $color_1;
+			list-style: none;
+			font-size: 1.4rem;
+			font-weight: var(--fw-normal);
+			text-transform: none;
+			letter-spacing: 1.5px;
+			padding: 0;
+
+			@media screen and (max-width: $mobile-width) {
+				flex-direction: column;
+			}
+		}
+		.footer__link {
+			text-decoration: none;
+			color: $color_2;
+			&:hover {
+				transition: 0.2s ease;
+				color: $color_3;
+			}
+		}
 	}
-	.footer__list {
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
-		gap: 80px;
-		color: $color_1;
-		list-style: none;
-		font-size: 1.4rem;
-		font-weight: var(--fw-normal);
-		text-transform: none;
-		letter-spacing: 1.5px;
-		padding: 0;
-	}
-	.footer__list-logo {
-		padding-right: 14em;
-	}
-	.footer__link {
-		text-decoration: none;
-		color: $color_2;
-		&:hover {
-			transition: 0.2s ease;
-			color: $color_3;
+
+	.hero-elements {
+		@media only screen and (max-width: $mobile-width) {
+			display: flex;
+			flex-direction: column;
+			height: 100vh;
 		}
 	}
 </style>
