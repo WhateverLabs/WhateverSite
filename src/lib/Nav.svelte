@@ -2,18 +2,12 @@
 	<a href="/"> <img src="images/Whatever-Logo.svg" alt="Whatever Social Logo" class="logo" /></a>
 	<nav class="navbar">
 		<ul class="nav__list">
-			<li class="nav__list-item">
-				<a href="/socials" class="nav__link">Social Frontends</a>
+			<li>
+				<a href="https://launch.whatever.social" class="nav__link">Frontends & Tools</a>
 			</li>
-			<li class="nav__list-item">
-				<a href="/knowledge" class="nav__link">Knowledge Frontends</a>
-			</li>
-			<li class="nav__list-item">
-				<a href="/tools" class="nav__link">Tools</a>
-			</li>
-			<li class="nav__list-item">
+			<!-- <li class="nav__list-item">
 				<a href="/guides" class="nav__link">Guides</a>
-			</li>
+			</li> -->
 			<li class="nav__list-item">
 				<a href="/contact" class="nav__link">Contact</a>
 			</li>
