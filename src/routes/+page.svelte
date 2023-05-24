@@ -30,7 +30,7 @@
 <img src="images/stacked-waves.png" alt="Lavender Waves" class="waves" />
 
 <section class="second__section--pg1">
-	<img id="lock" src="images/whateverlock.gif" alt="Whatever Lock Graphic" />
+	<img id="lock" src="/images/whateverlock.gif" alt="Whatever Lock Graphic" />
 	<div class="second__section--text">
 		<div class="container left">
 			<p class="textbox">
