@@ -1,3 +1,7 @@
+<script lang="ts">
+	import IoLogoGithub from 'svelte-icons/io/IoLogoGithub.svelte';
+</script>
+
 <header>
 	<a href="/"> <img src="images/Whatever-Logo.svg" alt="Whatever Social Logo" class="logo" /></a>
 	<nav class="navbar">
@@ -14,12 +18,19 @@
 			<li class="nav__list-item">
 				<a href="/donate" class="nav__link">Donate</a>
 			</li>
+			<li class="nav__list-item">
+				<a
+					href="https://github.com/WhateverLabs/WhateverSite"
+					target="_blank"
+					rel="noopener noreferrer"
+					class="nav__link"
+				>
+					<div style="height: 1.5rem; width: 1.5rem;">
+						<IoLogoGithub />
+					</div>
+				</a>
+			</li>
 		</ul>
-		<div class="burger">
-			<span class="bar" />
-			<span class="bar" />
-			<span class="bar" />
-		</div>
 	</nav>
 </header>
 
@@ -66,20 +77,11 @@
 					transition: 0.2s ease;
 					color: $color_3;
 				}
+
+				.nav__list-item {
+					margin: 0;
+				}
 			}
 		}
-	}
-
-	.burger {
-		display: none;
-		cursor: pointer;
-		padding-bottom: 0.5em;
-	}
-	.bar {
-		display: block;
-		width: 40px;
-		height: 6px;
-		margin: 7px auto;
-		background-color: $background-color_3;
 	}
 </style>
