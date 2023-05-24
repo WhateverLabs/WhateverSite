@@ -1,0 +1,74 @@
+@import './vars.scss';
+
+@font-face {
+	font-family: 'Sen';
+	font-style: normal;
+	font-weight: 400;
+	src: url('../fonts/sen-v7-latin-regular.eot');
+	/* IE9 Compat Modes */
+	/* IE6-IE8 */
+	/* Super Modern Browsers */
+	/* Modern Browsers */
+	/* Safari, Android, iOS */
+	src: local(''), url('../fonts/sen-v7-latin-regular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/sen-v7-latin-regular.woff2') format('woff2'),
+		url('../fonts/sen-v7-latin-regular.woff') format('woff'),
+		url('../fonts/sen-v7-latin-regular.ttf') format('truetype'),
+		url('../fonts/sen-v7-latin-regular.svg#Sen') format('svg');
+	/* Legacy iOS */
+}
+/* sen-700 - latin */
+@font-face {
+	font-family: 'Sen';
+	font-style: normal;
+	font-weight: 700;
+	src: url('../fonts/sen-v7-latin-700.eot');
+	/* IE9 Compat Modes */
+	/* IE6-IE8 */
+	/* Super Modern Browsers */
+	/* Modern Browsers */
+	/* Safari, Android, iOS */
+	src: local(''), url('../fonts/sen-v7-latin-700.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/sen-v7-latin-700.woff2') format('woff2'),
+		url('../fonts/sen-v7-latin-700.woff') format('woff'),
+		url('../fonts/sen-v7-latin-700.ttf') format('truetype'),
+		url('../fonts/sen-v7-latin-700.svg#Sen') format('svg');
+	/* Legacy iOS */
+}
+* {
+	box-sizing: border-box;
+	&::before {
+		box-sizing: border-box;
+	}
+	&::after {
+		box-sizing: border-box;
+	}
+
+	font-family: Sen, sans-serif;
+}
+
+:root {
+	--clr-primary: #db3426;
+	--clr-secondary: #4b27da;
+	--clr-black: #000000;
+	--clr-grey: #1f1e1e;
+	--clr-light: #ffffff;
+	--fw-normal: 400;
+	--fw-bold: 700;
+	--grid: 1fr;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 0;
+	font-family: $font-family_1;
+	font-size: 2rem;
+	line-height: 1.2;
+	color: $text-color;
+	background-color: $background-color_1;
+}
