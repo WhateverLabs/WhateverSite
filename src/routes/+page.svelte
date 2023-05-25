@@ -31,8 +31,8 @@
 	<div class="second__section--text">
 		<div class="container left">
 			<p class="textbox">
-				"Whatever" represents what we think of your data as a way of income - we don't see you as a
-				dollar sign
+				Whatever Social is a collection of FOSS alternative frontends and self-hosted services to try 
+				and close the gap between viewing mainstream social media and privacy
 			</p>
 		</div>
 		<div class="container right">
@@ -41,10 +41,15 @@
 				<u>no care, no care in the world</u>
 			</p>
 		</div>
+		<div class="container left 2">
+			<p class="textbox">
+				"Whatever" represents what we think of your data as a way of income - we don't see you as a
+				dollar sign
+			</p>
+		</div>
 	</div>
 	<h2 class="focus">
-		Your privacy is Whatever's focus. <br /><br />
-		Unlike these mega-corporations, we don't need to study your viewing habits or searches.
+		Because unlike these mega-corporations, we don't need to study your viewing habits or searches.
 		<br />
 		That's <u>WEIRD.</u>
 	</h2>
