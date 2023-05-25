@@ -97,7 +97,7 @@
 		box-sizing: border-box;
 		align-items: center;
 
-		background-image: linear-gradient(to bottom, #00000095, #201e1e), url('/images/banner.png');
+		background-image: linear-gradient(to bottom, #00000095, #201e1e 90%), url('/images/banner.png');
 		background-size: cover;
 
 		@media only screen and (max-width: $mobile-width) {
