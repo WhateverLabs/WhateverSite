@@ -21,9 +21,6 @@
 				/>
 			</div>
 		</div>
-		<ul id="scene">
-			<img src="images/banner.png" alt="Banner" />
-		</ul>
 	</div>
 </section>
 
@@ -70,7 +67,6 @@
 	</div>
 </section>
 
-
 <style lang="scss">
 	@import '../vars.scss';
 
@@ -101,6 +97,9 @@
 		box-sizing: border-box;
 		align-items: center;
 
+		background-image: linear-gradient(to bottom, #00000095, #201e1e), url('/images/banner.png');
+		background-size: cover;
+
 		@media only screen and (max-width: $mobile-width) {
 			display: inline-block;
 			padding: 1rem;
@@ -123,21 +122,6 @@
 		align-items: center;
 		img {
 			width: 100%;
-		}
-	}
-	.banner {
-		#scene {
-			position: absolute;
-			top: 0;
-			left: 0;
-			right: 0;
-			width: 100%;
-			height: 250%;
-			padding-left: 0.25em;
-			overflow: hidden;
-			opacity: 10%;
-			z-index: -1;
-			background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(31, 30, 30, 1) 100%);
 		}
 	}
 	.waves {
