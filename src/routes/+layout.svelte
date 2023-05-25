@@ -10,7 +10,7 @@
 		name="description"
 		content="Premium self-hosted instances of popular social media frontends. The best way to get the scoop without creepy ads & trackers."
 	/>
-	<meta name="og:image" content="/images/favicon.png" />
+	<meta name="og:image" content="/static/images/favicon.png" />
 	<meta name="theme-color" content="#ffffff" />
 </svelte:head>
 
