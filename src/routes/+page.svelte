@@ -16,8 +16,8 @@
 			</h1>
 			<div class="phone">
 				<img
-					src="images/180shots_so.png"
-					alt="Phone showing social media companies being proxied through Whatever Social"
+					src="images/whatever_phones.png"
+					alt="Phones showing social media companies being proxied through Whatever Social, Whatever Launchpad, and AO"
 				/>
 			</div>
 		</div>
