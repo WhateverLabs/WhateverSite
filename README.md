@@ -1,5 +1,5 @@
 # WhateverSite
-Whatever Social's website, designed in [Penpot](https://penpot.app) and built in [SvelteKit](https://kit.svelte.dev).
+Whatever Social's website, designed in [Penpot](https://penpot.app) and built in [SvelteKit](https://kit.svelte.dev). Looking for the Launchpad repo? Go [here](https://github.com/httpjamesm/launchpad-redirects).
 
 Built by [http.james](https://httpjames.space), Design and Graphics by [privacytime101](https://github.com/privacytime101).
 
