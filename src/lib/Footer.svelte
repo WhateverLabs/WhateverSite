@@ -5,11 +5,11 @@
 				<img src="images/Whatever-Logo.svg" alt="Whatever Social Small Logo" class="footerlogo" />
 			</li>
 			<li class="footer__list-item">
-				<a href="/privacy" class="nav__link">Privacy Policy</a>
+				<a href="/privacy" class="footer__link">Privacy Policy</a>
 			</li>
 			<li class="footer__list-item">|</li>
 			<li class="footer__list-item">
-				<a href="/transparency" class="nav__link">Transparency Report</a>
+				<a href="/transparency" class="footer__link">Transparency Report</a>
 			</li>
 		</ul>
 	</nav>
