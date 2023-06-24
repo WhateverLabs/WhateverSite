@@ -6,12 +6,12 @@
 		</p>
 		<p>
 			Feel free to contact the admin for general inquiries and issues at <a
-				href="mailto:hello@whatever.social">hello@whatever.social</a
+				href="mailto:hello@whatever.social" class="link">hello@whatever.social</a
 			>
 		</p>
 		<p>
 			If you are emailing in regards to an inquiry as a law enforcement agency, please e-mail
-			<a href="mailto:legal@whatever.social">legal@whatever.social</a>.
+			<a href="mailto:legal@whatever.social" class="link">legal@whatever.social</a>.
 		</p>
 		<h3>PGP Public Key - Send us your e-mail securely</h3>
 		<code
@@ -52,5 +52,8 @@
 			box-sizing: border-box;
 			width: 100%;
 		}
+	}
+	.link {
+		color: $color_3;
 	}
 </style>
