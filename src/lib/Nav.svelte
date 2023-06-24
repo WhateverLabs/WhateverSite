@@ -1,5 +1,6 @@
 <script lang="ts">
 	import IoLogoGithub from 'svelte-icons/io/IoLogoGithub.svelte';
+	import FaMastodon from 'svelte-icons/fa/FaMastodon.svelte';
 </script>
 
 <header>
@@ -19,6 +20,9 @@
 				<a href="/donate" class="nav__link">Donate</a>
 			</li>
 			<li class="nav__list-item">
+				<a href="https://status.whatever.social/status/live" class="nav__link">Status</a>
+			</li>
+			<li class="nav__list-item">
 				<a
 					href="https://github.com/WhateverLabs/WhateverSite"
 					target="_blank"
@@ -27,6 +31,18 @@
 				>
 					<div style="height: 1.5rem; width: 1.5rem;">
 						<IoLogoGithub />
+					</div>
+				</a>
+			</li>
+			<li class="nav__list-item">
+				<a
+					href="https://noc.social/@whatever"
+					target="_blank"
+					rel="me"
+					class="nav__link"
+				>
+					<div style="height: 1.5rem; width: 1.5rem;">
+						<FaMastodon />
 					</div>
 				</a>
 			</li>
@@ -67,7 +83,7 @@
 			flex-wrap: wrap;
 
 			@media only screen and (max-width: $mobile-width) {
-				/* flex-wrap: wrap; */
+				font-size: 1.2rem;
 			}
 
 			.nav__link {
