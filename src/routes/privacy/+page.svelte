@@ -24,7 +24,7 @@
 			and all their subdomains. Some sections of this policy may be specific to one of our services, in
 			which case it is specified. By using our services, you are agreeing to this policy.
 			<br /> <br />
-			Last updated: March 30, 2023
+			Last updated: July 6, 2023
 		</p>
 		<br />
 		<br />
@@ -133,7 +133,7 @@
 		</p>
 		<br />
 		<br />
-		<h2>💵 Third-parties providing Payment Services</h2>
+		<h2>💵 Third-parties providing Payment/Shop Services</h2>
 		<br />
 		<h3>Liberapay</h3>
 		<br />
@@ -153,6 +153,24 @@
 				href="https://raw.githubusercontent.com/cake-tech/cake_wallet/main/PRIVACY.md"
 				target="noreferrer">Cake Wallet's Privacy Policy</a
 			> to learn more.
+		</p>
+		<br />
+		<h3>Teespring</h3>
+		<br />
+		<p>
+			We rely on Teespring to handle purchases, production, shipping and related processes, found on "shop.whatever.social". 
+			Teespring collects analytics, which cannot be disabled from our end. View their privacy policies
+			<a
+				class="link"
+				href="https://www.spri.ng/policies/spring-terms-of-service?section=privacy"
+				target="noreferrer">Here [1]</a
+			> and 
+			<a
+				class="link"
+				href="https://shop.whatever.social/privacy-policy"
+				target="noreferrer">Here [2]</a
+			>
+			to learn more.
 		</p>
 		<br />
 		<br />
