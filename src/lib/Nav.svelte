@@ -36,7 +36,7 @@
 			</li>
 			<li class="nav__list-item">
 				<a
-					href="https://noc.social/@whatever"
+					href="https://orchard.social/@whatever"
 					target="_blank"
 					rel="me"
 					class="nav__link"
