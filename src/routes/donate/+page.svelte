@@ -7,7 +7,7 @@
 				target="_blank"
 				rel="noopener noreferrer">Liberapay</a
 			>
-			or Monero (<code>Monero</code>).
+			or Monero (<code>87tu5QTMSKmi8RmyyRCP1daBouRKegmL54k9d4cqqWscHWTqSaKRXQu9X2g81JgJyfQFbyL1dTRmR6TsZ8oZZqLj1Ljfyd7</code>).
 		</p>
 	</div>
 </div>
