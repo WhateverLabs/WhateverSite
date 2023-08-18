@@ -7,7 +7,7 @@
             <a href="https://orchard.social/@whatever/110788570817924842" class="link">Mastodon</a>.
         </p>
         <p>    
-            A list of other Nitter instances are available 
+            A list of other Nitter instances is available 
             <a href="https://github.com/zedeus/nitter/wiki/Instances" class="link">here</a>. 
         </p>
         <p>    
