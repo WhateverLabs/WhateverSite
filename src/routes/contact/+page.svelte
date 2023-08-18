@@ -13,6 +13,11 @@
 			If you are emailing in regards to an inquiry as a law enforcement agency, please e-mail
 			<a href="mailto:legal@whatever.social" class="link">legal@whatever.social</a>.
 		</p>
+		<p>
+			If you prefer to use Matrix for communications, please message
+			@nebula:whatever.social
+		</p>
+
 		<h3>PGP Public Key - Send us your e-mail securely</h3>
 		<code
 			>-----BEGIN PGP PUBLIC KEY BLOCK-----
@@ -38,9 +43,12 @@
 		display: flex;
 		align-items: center;
 		justify-content: center;
-
+		
+		font-size: 24px;
 		box-sizing: border-box;
 		padding: 5rem;
+		padding-left: 6em;
+		padding-right: 6em;
 
 		@media only screen and (max-width: $mobile-width) {
 			padding: 1rem;
