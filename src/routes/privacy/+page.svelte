@@ -10,7 +10,7 @@
 		<a href="/"> <img src="images/Whatever-LogoWhite.svg" alt="Whatever Social Logo" class="logo" /></a>
 		<h2>Privacy Policy</h2>
 		<p>
-			"We", "our" and "us" refers to whatever.social's and whatevertinfoil.de's maintainers and/or
+			"We", "our" and "us" refers to whatever.social's maintainers and/or
 			developers. "You" refers to you as the user of our services.
 			<br />
 			<br />
@@ -24,14 +24,14 @@
 			and all their subdomains. Some sections of this policy may be specific to one of our services, in
 			which case it is specified. By using our services, you are agreeing to this policy.
 			<br /> <br />
-			Last updated: July 6, 2023
+			Last updated: October 1, 2023
 		</p>
 		<br />
 		<br />
 		<h2>👤 Personal Data</h2>
 		<p>
 			While visiting our sites: The logging done on our sites is minimal to keep the experience
-			private. For example, our NGINX (A service that we use on our server) logs are kept disabled.
+			private. The primary surface of our logging is in NGINX (A service that we use on our server), where logs kept disabled.
 			However, this may not always be the case. In the event of a critical system error or an attack
 			on our services, such as a DDoS, it may be necessary to temporarily enable logs to diagnose and
 			remedy the issue. In scenarios such as these, logs will be purged as soon as the issue is dealt
@@ -57,7 +57,7 @@
 		<br />
 		<h2>🍪 Cookies</h2>
 		<p>
-			The only use of cookies and local storage in our services is to keep you signed into our
+			The only use of cookies and/or local storage in our services is to keep you signed into our
 			services which accounts can be used in, and to save your preferences (Ex: Default video quality
 			on https://watch.whatever.social). We do not use cookies for any other purposes.
 		</p>
@@ -67,8 +67,7 @@
 		<p>
 			In the event of a subpoena, court order, other legal process, or to exercise our legal rights
 			and/or to defend against legal claims, we may be forced to give applicable information with
-			third-parties. Our sites hosted on our whatever.social domain operate on a server in Los Angeles, CA, United States, which is subject to United States Law, and on a server in Eygelshoven, Netherlands which is subject to The Netherlands Law. Our sites hosted on our
-			whatevertinfoil.de domain operate on a server in Germany, and are subject to German Law.
+			third-parties. Our sites hosted on our whatever.social domain operate on a server in the United States which is subject to New York and US Law, on a server in Germany which is subject to German Law, and on a server in The Netherlands which is subject to Dutch Law.
 			<br />
 			<br />
 			View the "Personal Data" section of this policy and our
@@ -79,16 +78,6 @@
 		<br />
 		<br />
 		<h2>🤝 Third-parties providing Technical Services</h2>
-		<br />
-		<h3>NOC.org</h3>
-		<p>
-			We rely on NOC.org to provide us with DDoS protection, CDN delivery and certain other web
-			services. NOC.org is not used on services on our whatevertinfoil.de domain. View <a
-				class="link"
-				href="https://noc.org/privacy/"
-				target="noreferrer">NOC.org's Privacy Policy</a
-			> to learn more.
-		</p>
 		<br />
 		<h3>Backblaze</h3>
 		<p>
@@ -101,7 +90,7 @@
 		<br />
 		<h3>Kavin.rocks</h3>
 		<p>
-			On https://watch.whatever.social and https://watch.whatevertinfoil.de, fonts may be loaded from
+			On https://watch.whatever.social, fonts may be loaded from
 			https://fonts.kavin.rocks, which operates via Cloudflare Workers.
 		</p>
 		<br />
