@@ -8,8 +8,8 @@
 		<br />
 		<h3>2023</h3>
 		<p>
-			As of March 30th, 2023, we have received 0 requests from government and/or law enforcement
-			agencies this year.
+			As of October 1, 2023, we have received 0 requests from government and/or law enforcement
+			agencies this year. Out of these requests, we have complied and submitted user data for 0 of them.
 		</p>
 	</div>
 </div>
