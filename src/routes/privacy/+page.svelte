@@ -16,13 +16,13 @@
 			<br />
 			Whatever Social is committed to giving users more control over their digital life. This is why we
 			take steps to help ensure we are providing a private and secure experience while you browse your
-			favorite social media. This policy outlines important details such as what we store, what you will
+			favorite social media and services. This policy outlines important details such as what we store, what you will
 			need to consult third parties for, and situations where we cannot protect you.
 			<br />
 			<br />
-			This policy applies to all whatever.social sites, found at https://whatever.social, https://whatevertinfoil.de
-			and all their subdomains. Some sections of this policy may be specific to one of our services, in
-			which case it is specified. By using our services, you are agreeing to this policy.
+			This policy applies to all Whatever Social's sites, found at https://whatever.social and all its subdomains. 
+			Some sections of this policy may be specific to one of our services, in which case it is specified. 
+			By using our services, you are agreeing to this policy.
 			<br /> <br />
 			Last updated: October 1, 2023
 		</p>
