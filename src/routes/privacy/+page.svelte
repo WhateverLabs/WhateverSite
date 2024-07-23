@@ -20,11 +20,12 @@
 			need to consult third parties for, and situations where we cannot protect you.
 			<br />
 			<br />
-			This policy applies to all Whatever Social's sites, found at https://whatever.social and all its subdomains. 
+			This policy applies to Whatever Social's sites found at https://whatever.social and all its subdomains.
+			This policy does not apply to https://notavault.com.
 			Some sections of this policy may be specific to one of our services, in which case it is specified. 
 			By using our services, you are agreeing to this policy.
 			<br /> <br />
-			Last updated: October 1, 2023
+			Last updated: July 22, 2024
 		</p>
 		<br />
 		<br />
@@ -58,8 +59,8 @@
 		<h2>🍪 Cookies</h2>
 		<p>
 			The only use of cookies and/or local storage in our services is to keep you signed into our
-			services which accounts can be used in, and to save your preferences (Ex: Default video quality
-			on https://watch.whatever.social). We do not use cookies for any other purposes.
+			services which accounts can be used in, and to save your preferences (Ex: Preferred theme
+			on https://discuss.whatever.social). We do not use cookies for any other purposes.
 		</p>
 		<br />
 		<br />
@@ -85,21 +86,6 @@
 				class="link"
 				href="https://www.backblaze.com/company/privacy.html"
 				target="noreferrer">Backblazes's Privacy Policy</a
-			> to learn more.
-		</p>
-		<br />
-		<h3>Kavin.rocks</h3>
-		<p>
-			On https://watch.whatever.social, fonts may be loaded from
-			https://fonts.kavin.rocks, which operates via Cloudflare Workers.
-		</p>
-		<br />
-		<h3>Session</h3>
-		<p>
-			We use Session as one of the methods for contacting us. View <a
-				class="link"
-				href="https://getsession.org/privacy-policy"
-				target="noreferrer">Session's Privacy Policy</a
 			> to learn more.
 		</p>
 		<br />
