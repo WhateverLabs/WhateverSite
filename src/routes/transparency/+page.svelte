@@ -11,7 +11,7 @@
 		<br />
 		<h3>2024</h3>
 		<p>
-			As of October July 22, 2024, we have received 0 requests from government and/or law enforcement
+			As of July 22, 2024, we have received 0 requests from government and/or law enforcement
 			agencies this year. Out of these requests, we have complied and submitted user data for 0 of them.
 		</p>
 	</div>
